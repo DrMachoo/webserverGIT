@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+   <body>
+
+      <form action = "{{ url_for('addrec') }}" method = "POST">
+         <h3>Student Information</h3>
+         Name<br>
+         <input type = "text" name = "nm" /></br>
+
+         Address<br>
+         <textarea name = "add" ></textarea><br>
+
+         City<br>
+         <input type = "text" name = "city" /><br>
+
+         PINCODE<br>
+         <input type = "text" name = "pin" /><br>
+         <input type = "submit" value = "submit" /><br>
+      </form>
+   <p>Go back to main page: <a href="/">CLICK HERE!</a></p>
+<style>
+    body {background-color: darkgray;}
+    h1   {color: blue;}
+    p    {color: red;}
+</style>
+   </body>
+</html>
